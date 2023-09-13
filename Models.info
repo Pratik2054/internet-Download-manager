@@ -1,0 +1,75 @@
+Package  com.org.example ;
+
+Public class fileinfo{
+Private Simplestringproperty index = new simplestringproperty();
+Private SimpleStringProperty name= new simplestringproperty();
+Private SimpleStringProperty url= new simpleintegerproperty();
+Private SimpleStringProperty status= new simplestringproperty();
+Private simplestringproperty action= new simplestringproperty();
+Private simplestringproperty path= new simplestringproperty();
+
+
+Public fileInfo(string index , string name, string url , string status, string action,string path){
+         this.index.set(index);
+         this.name.set(name);
+         this.url.set(url);
+         this.status.set(status);
+        this.action.set(action);
+         this.path.set(path);
+}
+Public int getIndex(){
+           return index.get();
+}
+Public simplestringproperty indexproperty(){
+           return index;
+}
+Public void setindex(string index){
+          this.index.set(index);
+}
+Public  string  getName(){
+           return name.get();
+}
+Public simplestringproperty nameproperty(){
+           return name;
+}
+Public void setname(string name){
+          this.name.set(name);
+}
+Public  string  geturl(){
+           return url.get();
+}
+Public simplestringproperty urlproperty(){
+           return url;
+}
+Public void seturl(string url){
+          this.url.set(url);
+}
+Public  string  getstatus(){
+           return status.get();
+}
+Public simplestringproperty statusproperty(){
+           return status;
+}
+Public void setstatus(string status){
+          this.status.set(status);
+}
+Public  string  getaction(){
+           return action.get();
+}
+Public simplestringproperty actionproperty(){
+           return action;
+}
+Public void setaction(string action){
+          this.action.set(action);
+}
+Public  string  getpath(){
+           return path.get();
+}
+Public simplestringproperty pathproperty(){
+           return path;
+}
+Public void setpath(string path){
+          this.path.set(path);
+}
+
+
